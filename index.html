@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>repositorio de diagramas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="asterisk">*</div>
+    <header class="header">
+        <div class="header-left">
+            <h1>repositorio de diagramas</h1>
+            <p>Informe Seminario Bárbara Trabert</p>
+        </div>
+        <button class="menu-button" id="menuButton">Ver diagramas</button>
+        <div class="dropdown-menu" id="dropdownMenu">
+            <ul id="menuList">
+                <li><a href="?diagram=1">1. Perspectiva histórica</a></li>
+                <li><a href="?diagram=2">2. Impacto de la pérdida</a></li>
+                <li><a href="?diagram=3">3. Dimensiones de la pérdida</a></li>
+                <li><a href="?diagram=4">4. Perfilamiento de usuario</a></li>
+                <li><a href="?diagram=5">5. Dimensiones de proyecto</a></li>
+                <li><a href="?diagram=6">6. Mapa de ecosistema</a></li>
+                <li><a href="?diagram=7">7. Mapa de sincronicidades</a></li>
+                <li><a href="?diagram=8">8. Fases de proyecto y avance</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="viewer-container">
+        <div class="diagram-wrapper">
+            <h2 class="diagram-title" id="diagramTitle"></h2>
+            <div class="diagram-container">
+                <img class="diagram-image" id="diagramImage" src="" alt="Diagrama">
+    </main>
+    <div class="navigation">
+        <a href="#" class="nav-button" id="prevButton">Anterior</a>
+        <a href="#" class="nav-button" id="nextButton">Siguiente</a>
+    </div>
+
+<footer class="diagram-footer">Desarrollado por Bárbara Trabert, 2025.</footer>
+
+    <script src="sketch.js"></script>
+</body>
+</html>
